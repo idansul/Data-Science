@@ -2,7 +2,7 @@ import streamlit as st
 import timeit
 import pickle
 import random
-from mushroom_project.mushroom_preprocessing import get_dataset
+from mushroom_preprocessing import get_dataset
 
 start = timeit.default_timer()
 
