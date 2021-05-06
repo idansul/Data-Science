@@ -1,2 +1,11 @@
 pandas
 streamlit
+pickle
+random
+matplotlib
+seaborn 
+sklearn
+numpy
+xgboost
+urllib
+statsmodels
