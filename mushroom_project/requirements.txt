@@ -1,6 +1,5 @@
 pandas
 streamlit
-pickle
 random
 matplotlib
 seaborn 
