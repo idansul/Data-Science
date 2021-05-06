@@ -2,7 +2,7 @@ import streamlit as st
 import timeit
 import pickle
 import random
-from mushroom_preprocessing import get_dataset
+from mushroom_project.mushroom_preprocessing import get_dataset
 
 start = timeit.default_timer()
 
@@ -39,11 +39,11 @@ data_exp.write("To see the full attribute information [click here](https://archi
 @st.cache(allow_output_mutation=True)
 def get_models():
     models = []
-    with open("colors_model", "rb") as pkl:
+    with open("mushroom_project/colors_model", "rb") as pkl:
         models.append(pickle.load(pkl))
-    with open("area_model", "rb") as pkl:
+    with open("mushroom_project/area_model", "rb") as pkl:
         models.append(pickle.load(pkl))
-    with open("clustering_model", "rb") as pkl:
+    with open("mushroom_project/clustering_model", "rb") as pkl:
         models.append(pickle.load(pkl))
     return models
 
