@@ -1,6 +1,5 @@
 pandas
 streamlit
-random
 matplotlib
 seaborn 
 sklearn
