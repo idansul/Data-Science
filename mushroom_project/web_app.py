@@ -23,7 +23,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("Mushroom Prediction App")
 st.write("This app predicts the edibility of a mushroom.")
 st.write("""The data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota families.
-         The app is based on 3 ML models that I built and that can be found in my [Github](https://github.com/idansul/data_science/tree/main/mushroom%20project).""")
+         The app is based on 3 ML models that I built and that can be found in my [Github](https://github.com/idansul/data_science/tree/main/mushroom_project).""")
 
 # Loading the dataframe
 @st.cache
