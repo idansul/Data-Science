@@ -1,8 +1,8 @@
 import streamlit as st
+import pandas as pd
 import timeit
 import pickle
 import random
-from mushroom_preprocessing import get_dataset
 
 start = timeit.default_timer()
 
@@ -28,7 +28,7 @@ st.write("""The data set includes descriptions of hypothetical samples correspon
 # Loading the dataframe
 @st.cache
 def get_data():
-    return get_dataset()
+    return pd.read_csv("Mushrooms.csv")
 
 data_exp = st.beta_expander("Mushroom Data")
 df = get_data()
