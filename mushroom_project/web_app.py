@@ -28,7 +28,7 @@ st.write("""The data set includes descriptions of hypothetical samples correspon
 # Loading the dataframe
 @st.cache
 def get_data():
-    return pd.read_csv("Mushrooms.csv")
+    return pd.read_csv("mushroom_project/Mushrooms.csv")
 
 data_exp = st.beta_expander("Mushroom Data")
 df = get_data()
