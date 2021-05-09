@@ -101,5 +101,5 @@ stop = timeit.default_timer()
 st.text(f"Running time: {round(stop - start, 4)} sec")
 
 # Credit for the drawings
-credit = st.beta_columns([2.2, 0.7])
+credit = st.beta_columns([2.2, 0.8])
 credit[1].markdown("###### Drawings by [Martha Iserman](https://www.bigredsharks.com/)")
