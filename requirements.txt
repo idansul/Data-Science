@@ -1,8 +1,8 @@
-streamlit=0.77
+streamlit
 pandas
 matplotlib
-seaborn 
-sklearn
+seaborn
+sklearn=='0.22.1'
 numpy
 xgboost
 statsmodels
