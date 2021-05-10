@@ -1,5 +1,5 @@
+streamlit=='0.77'
 pandas
-streamlit
 matplotlib
 seaborn 
 sklearn
