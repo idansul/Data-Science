@@ -2,7 +2,7 @@ streamlit==0.77
 pandas
 matplotlib
 seaborn
-sklearn==
+sklearn==0.22.1
 numpy
 xgboost
 statsmodels
