@@ -12,7 +12,7 @@ st.set_page_config(page_title="Mushroom Predictions", page_icon=":mushroom:")
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://i.postimg.cc/tRDVzM48/image.png");
+background-image: url("https://i.postimg.cc/9fJrB4WZ/image.png");
 background-size: cover;
 }
 </style>
