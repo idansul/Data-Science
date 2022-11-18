@@ -7,4 +7,4 @@ The notebook describes with comments a step-by-step process of selecting 3 varia
 To activate the code in the command line run the command "python mushroom_main.py".
 
 ### Web application
-I created a Streamlit web application for getting predictions from the models: https://share.streamlit.io/idansul/data_science/main/mushroom_project/web_app.py.
+I created a Streamlit web application for getting predictions from the models: https://mushroom-prediction.streamlit.app.
